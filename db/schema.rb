@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 20141114195758) do
     t.string   "name"
     t.string   "label"
     t.string   "inputType"
-    t.integer  "questionNumber"
+    t.integer  "number"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
