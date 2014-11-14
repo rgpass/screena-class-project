@@ -1,5 +1,5 @@
-class Changeinput_typeToinput_typeInQuestions < ActiveRecord::Migration
+class ChangeinputTypeToinput_typeInQuestions < ActiveRecord::Migration
   def change
-    rename_column :questions, :input_type, :input_type
+    rename_column :questions, :inputType, :input_type
   end
 end

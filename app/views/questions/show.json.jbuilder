@@ -1,1 +1,3 @@
-json.extract! @question, :id, :name, :label, :input_type, :question_number, :created_at, :updated_at
+json.extract! @question, :question_number, :name, :label, :input_type
+json.options @question.options, :answer, :weight
+
