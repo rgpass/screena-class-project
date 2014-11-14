@@ -4,7 +4,7 @@ class CreateQuestions < ActiveRecord::Migration
       t.string :name
       t.string :label
       t.string :inputType
-      t.integer :number
+      t.integer :quesitonNumber
 
       t.timestamps
     end
