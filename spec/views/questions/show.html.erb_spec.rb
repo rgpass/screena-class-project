@@ -5,7 +5,7 @@ RSpec.describe "questions/show", :type => :view do
     @question = assign(:question, Question.create!(
       :name => "Name",
       :label => "Label",
-      :inputType => "Input Type"
+      :input_type => "Input Type"
     ))
   end
 
