@@ -6,12 +6,12 @@ RSpec.describe "questions/index", :type => :view do
       Question.create!(
         :name => "Name",
         :label => "Label",
-        :inputType => "Input Type"
+        :input_type => "Input Type"
       ),
       Question.create!(
         :name => "Name",
         :label => "Label",
-        :inputType => "Input Type"
+        :input_type => "Input Type"
       )
     ])
   end

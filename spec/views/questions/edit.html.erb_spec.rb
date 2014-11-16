@@ -5,7 +5,7 @@ RSpec.describe "questions/edit", :type => :view do
     @question = assign(:question, Question.create!(
       :name => "MyString",
       :label => "MyString",
-      :inputType => "MyString"
+      :input_type => "MyString"
     ))
   end
 
@@ -18,7 +18,7 @@ RSpec.describe "questions/edit", :type => :view do
 
       assert_select "input#question_label[name=?]", "question[label]"
 
-      assert_select "input#question_inputType[name=?]", "question[inputType]"
+      assert_select "input#question_input_type[name=?]", "question[input_type]"
     end
   end
 end
